@@ -236,6 +236,9 @@ void loop(){
             digitalWrite(CARTMODE, 0);
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 1);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);			
 			}
 		if (header.indexOf("/action?ROM=G1") != -1)
 		{
@@ -245,6 +248,9 @@ void loop(){
 	    digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G2") != -1)
 		{
@@ -254,6 +260,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 1);
 	    digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G3") != -1)
 		{
@@ -263,6 +272,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE,0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G4") != -1)
 		{
@@ -272,6 +284,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE,0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G5") != -1)
 		{
@@ -281,6 +296,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G6") != -1)
 		{
@@ -290,6 +308,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G7") != -1)
 		{
@@ -299,6 +320,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G8") != -1)
 		{
@@ -308,6 +332,9 @@ void loop(){
             digitalWrite(CARTMODE, 0);
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G9") != -1)
 		{
@@ -317,6 +344,9 @@ void loop(){
 	    digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G10") != -1)
 		{
@@ -326,6 +356,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
 	    digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G11") != -1)
 		{
@@ -335,6 +368,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE,0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G12") != -1)
 		{
@@ -344,6 +380,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE,0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G13") != -1)
 		{
@@ -353,6 +392,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G14") != -1)
 		{
@@ -362,6 +404,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G15") != -1)
 		{
@@ -371,6 +416,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
     }
 		if (header.indexOf("/action?ROM=G16") != -1)
 		{
@@ -380,6 +428,9 @@ void loop(){
             digitalWrite(CARTMODE, 0);
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G17") != -1)
 		{
@@ -389,6 +440,9 @@ void loop(){
 	    digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G18") != -1)
 		{
@@ -397,7 +451,10 @@ void loop(){
             digitalWrite(KERNAL2, 1);
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 0);
-	        	digitalWrite(CARTMODE, 0);
+	    digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
   	}
 		if (header.indexOf("/action?ROM=G19") != -1)
 		{
@@ -407,6 +464,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE,0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G20") != -1)
 		{
@@ -416,6 +476,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE,0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G21") != -1)
 		{
@@ -425,6 +488,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G22") != -1)
 		{
@@ -434,6 +500,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G23") != -1)
 		{
@@ -443,6 +512,9 @@ void loop(){
             digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G24") != -1)
 		{
@@ -452,6 +524,9 @@ void loop(){
             digitalWrite(CARTMODE, 0);
 	    digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G25") != -1)
 		{
@@ -461,6 +536,9 @@ void loop(){
 	    digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G26") != -1)
 		{
@@ -470,6 +548,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G27") != -1)
 		{
@@ -479,6 +560,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE,0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G28") != -1)
 		{
@@ -488,6 +572,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE,0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G29") != -1)
 		{
@@ -497,6 +584,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G30") != -1)
 		{
@@ -506,6 +596,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
 			}
 		if (header.indexOf("/action?ROM=G31") != -1)
 		{
@@ -515,6 +608,9 @@ void loop(){
             digitalWrite(BASIC0, 0);
             digitalWrite(BASIC1, 0);
             digitalWrite(CARTMODE, 0);
+      	    digitalWrite(CHARGEN0, 1);
+            digitalWrite(CHARGEN1, 1);
+            digitalWrite(CHARGEN2, 1);				
   	        }
 		if (header.indexOf("/noreset?MainSid=SID1PRI") != -1)
 		{
