@@ -18,6 +18,8 @@ All the use cases are written in the same order the ROM should be written in.  C
 DISCLAIMER:
 I just wired this bastard directly in and the Pico pins are always outputs driven high or low.  No level shifters or floating inputs when the line should be high or anything like that.  The voltages on the PLA side sit around 3.5 and the Pico high is 3.3.  So honestly the way I did this probably isn't 100% sane but I've been abusing this thing for about a week now and nothings blown up.  The 3.5v on the PLA is within the Pico's 3.6v tolerance and the line settles at 3.3 when the Pico is powered on.  Neither the PLA or the RP2040 get very warm so I think it'll probably be ok.  I suppose the Pico is sinking that .2v somewhere so if anything's going to blow up, it's probably the Pico and not the Evo PLA so I'm good with the risk.
 
+DO NOT USE THIS ON A STANDARD 5v C64 WITHOUT A LEVEL SHIFTER ON THE GPIO LINES.  YOU WILL INCENERATE YOUR PI!  NO ONE LIKES BURNT PI!
+
 In the future I'd like to add filesystem support (if I ever figure it out) in order to use WiFi manager so that you don't have to hard code SSID and password at compile time and to remember the state of the GPIO pins through reboots.  In all honesty, I really don't know what the hell I'm doing so it would be great if someone forked this thing and made it more useful.  I'm sure I could figure it out in a matter of weeks, while someone who actually knows what they're doing could probably get it done in an hour or less.
 
 Anyway, good luck, have fun and go wire something directly into something else whether it likes it or not!
