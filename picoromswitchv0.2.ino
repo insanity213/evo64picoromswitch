@@ -293,7 +293,7 @@ void loop(){
             digitalWrite(KERNAL0, 0);
             digitalWrite(KERNAL1, 1);
             digitalWrite(KERNAL2, 0);
-            digitalWrite(BASIC0, 0);
+            digitalWrite(BASIC0, 1);
             digitalWrite(BASIC1, 1);
             digitalWrite(CARTMODE, 0);
       	    digitalWrite(CHARGEN0, 1);
